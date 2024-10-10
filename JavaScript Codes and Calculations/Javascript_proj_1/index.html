@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body>
+    <div class="student-form form">
+        <h1>Student Info</h1><br>
+        <div class="student-info">
+            <!-- Setting Up Input For Student ID -->
+            <label for="IDOfStudent">Student ID: </label>
+            <input type="text" id="IDOfStudent">
+
+            <!-- Setting Up Input For Name of Student -->
+            <label for="nameOfStudent"> Name of Student: </label>
+            <input type="text" id="nameOfStudent">
+
+            <!-- Setting Up Input For Age of Student -->
+            <label for="ageOfStudent"> Age of Student: </label>
+            <input type="text" id="ageOfStudent">
+
+
+            <!-- Setting Up Input For Class of Student -->
+            <label for="classOfStudent"> Class of Student: </label>
+            <input type="text" id="classOfStudent">
+        </div>
+
+    </div>
+
+    <div class="subject-form form">
+        <h1>Student Grades</h1><br>
+        <!-- SUBJECT ONE -->
+        <div class="subject-1">
+            <!-- Setting Up Input For Name of Subject I -->
+            <label for="nameOfSubject">Name of Subject 1: </label>
+            <input type="text" id="nameOfSubject">
+
+            <!-- Setting Up Input For Term Grade I -->
+            <label for="termGrade1">Term Grade I: </label>
+            <input type="number" id="termGrade1">
+
+            <!-- Setting Up Input For Term Grade II -->
+            <label for="termGrade2">Term Grade II: </label>
+            <input type="number" id="termGrade2">
+
+            <!-- Setting Up Input For Term Grade III -->
+            <label for="termGrade3">Term Grade III: </label>
+            <input type="number" id="termGrade3">
+        </div>
+    </div>
+
+    <div class="subject-form2 form">
+        <h1>Student Grades</h1><br>
+        <!-- SUBJECT TWO -->
+        <div class="subject-2">
+            <!-- Setting Up Input For Name of Subject I -->
+            <label for="nameOfSubject-subject2">Name of Subject 2: </label>
+            <input type="text" id="nameOfSubject-subject2">
+
+            <!-- Setting Up Input For Term Grade I -->
+            <label for="termGrade1-subject2">Term Grade I: </label>
+            <input type="number" id="termGrade1-subject2">
+
+            <!-- Setting Up Input For Term Grade II -->
+            <label for="termGrade2-subject2">Term Grade II: </label>
+            <input type="number" id="termGrade2-subject2">
+
+            <!-- Setting Up Input For Term Grade III -->
+            <label for="termGrade3-subject2">Term Grade III: </label>
+            <input type="number" id="termGrade3-subject2">
+        </div>
+    </div>
+
+    <div class="subject-form3 form">
+        <h1>Student Grades</h1><br>
+        <!-- SUBJECT THREE -->
+        <div class="subject-3">
+            <!-- Setting Up Input For Name of Subject I -->
+            <label for="nameOfSubject-subject3">Name of Subject 3: </label>
+            <input type="text" id="nameOfSubject-subject3">
+
+            <!-- Setting Up Input For Term Grade I -->
+            <label for="termGrade1-subject3">Term Grade I: </label>
+            <input type="number" id="termGrade1-subject3">
+
+            <!-- Setting Up Input For Term Grade II -->
+            <label for="termGrade2-subject3">Term Grade II: </label>
+            <input type="number" id="termGrade2-subject3">
+
+            <!-- Setting Up Input For Term Grade III -->
+            <label for="termGrade3-subject3">Term Grade III: </label>
+            <input type="number" id="termGrade3-subject3">
+        </div>
+    </div>
+
+    <div id="result" class="student-result form">
+
+    </div>
+
+    <div class="nextprev">
+        <button onclick="nextPrev(-1)" id="prev" class="button" role="button">Previous</button>
+        <button onclick="nextPrev(1)" id="next" class="button" role="button">Next</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
